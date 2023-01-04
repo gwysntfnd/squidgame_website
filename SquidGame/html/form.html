@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="..//css/form_style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="redBg">
+            <div class="box signin">
+                <h2>Already have account?</h2>
+                <button class="signinBtn">Sign In</button>
+            </div>
+            <div class="box signup">
+                <h2>Don't have account? </h2>
+                <button class="signupBtn">Sign up</button>
+            </div>
+        </div>
+        <div class="formBx">
+            <div class="form signinform">
+                <form action="#">
+                    <h3>Sign In</h3>
+                    <input type="text" placeholder="Email Address">
+                    <input type="Password" placeholder="Password">
+                    <button type="button" onclick="open()" class="btn1" id="submit">Sign in</button>
+                    <a href="#" class="forget">Forget password</a>
+                </form>
+            </div>
+            <div class="form signupform">
+                <form action="#">
+                    <h3>Sign up</h3>
+                    <input type="text" id="username" placeholder="Username">
+                    <input type="email" id= "email" placeholder="Email Address">
+                    <input type="Password" id= "password" placeholder="Password">
+                    <input type="password" placeholder="Confirm password">
+                    <button class="btn2" id="register">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="..//javascript/form_script.js"> </script>
+    
+</body>
+</html>
